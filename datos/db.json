@@ -1,0 +1,58 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Xbox One S 1Tb",
+      "precio": "203 ",
+      "imagen": "http://127.0.0.1:5500/imagenes/Xbox-One-s.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Apple Watch Ultra",
+      "precio": "799 ",
+      "imagen": "http://127.0.0.1:5500/imagenes/apple-watch.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Audifonos Gamer",
+      "precio": "40",
+      "imagen": "http://127.0.0.1:5500/imagenes/audifonos.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Asus Rog Strix Scar III",
+      "precio": "1,879",
+      "imagen": "http://127.0.0.1:5500/imagenes/computador.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Cámara K3 Drone Wifi Fpv 4k Hd",
+      "precio": "98",
+      "imagen": "http://127.0.0.1:5500/imagenes/dron.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Ipon 14 Pro Max",
+      "precio": "1,198",
+      "imagen": "http://127.0.0.1:5500/imagenes/ipon-14-pro-max.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Nintendo Switch",
+      "precio": "299",
+      "imagen": "http://127.0.0.1:5500/imagenes/nintendo-switch.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "PlayStation 5",
+      "precio": "499",
+      "imagen": "http://127.0.0.1:5500/imagenes/play_5.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Smart TV Samsung Series 6",
+      "precio": "2,338",
+      "imagen": "http://127.0.0.1:5500/imagenes/tv-suhd.jpg"
+    }
+  ]
+}

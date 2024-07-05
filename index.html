@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/imagenes/logo/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style/styles.css">
+</head>
+
+<body>
+    <header class="encabesado">
+        <h1 class="titulo">Alura Geek</h1>
+    </header>
+
+    <main class="contenido">
+        <div class="container">
+            <h2 class="titulo2">Mis Productos:</h2>
+            <Div class="container-productos" data-producto>
+                <ul class="productos1">
+                    <!--   <li class="productos">
+                    <img src="imagenes/Xbox-One-s.jpg" alt="Xbox-One-s" class="img-producto">
+                    <p class="text-producto">Xbox One S 1Tb</p>
+                    <p class="precio-producto">$ 203 USD</p>
+                    <img class="delete_button" src="imagenes/icono/delete_icon.svg" data-id="${di}" alt="eliminar">
+                </li>
+
+                  -->
+                </ul>
+            </Div>
+        </div>
+        <div class="informacion">
+            <h2 class="titulo3">Agregar Producto:</h2>
+            <form class="informacion__producto" dato-formulario>
+                <input class="informacion__input" dato-nombre type="text" name="nombre" placeholder="Nombre del Producto" required
+                    minlength="3" maxlength="50">
+
+                <input class="informacion__input" dato-precio type="text" name="precio" placeholder="Precio" required>
+
+                <input class="informacion__input" dato-imagen type="text" name="imagen" placeholder="Imagen Del Procuto (URL)"
+                    required minlength="5" maxlength="200">
+                <div class="button-c">
+                    <button type="submit" class="button-enviar">Enviar</button>
+                    <button type="reset" class="button-limpiar">Limpiar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="pie_de_pajina">
+        <h2 class="pie_de_pajina_titulo">Alura Geek</h2>
+        <section class="nombre">
+            <h3 class="disarrollado">Desarrollado por:</h3>
+            <h4>Julian Ariza</h4>
+        </section>
+    </footer>
+    <script type="module" src="js/mostrar-productos.js"></script>
+</body>
+
+</html>

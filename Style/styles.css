@@ -1,0 +1,262 @@
+@import url(reset.css);
+
+:root {
+    ---color1: #7e0dc9e8;
+    ---color2: #fff;
+}
+
+
+
+.encabesado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(---color1);
+
+}
+
+.titulo {
+    font-family: "Press Start 2P", system-ui;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.contenido {
+    background: #eee;
+    padding: 0 0 16px;
+}
+
+.container{
+    padding: 20px 0px 0 65px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.titulo2 {
+    font-family: "Press Start 2P", system-ui;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 25px 0;
+}
+
+
+
+.container-productos {
+
+    padding: 10px 0 10px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    background: var(---color2);
+    border-radius: 12px;
+    box-shadow: 7px 7px 15px 
+    rgba(0, 0, 0, 25%);
+}
+
+
+.productos {
+    width: 30%;
+    padding: 0 0 0 6px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.img-producto {
+    width: 90%;
+}
+
+.productos:hover {
+    border: 2px solid var(---color1);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.delete_button:hover {
+    transform: scale(1.05);
+}
+
+.text-producto {
+    font-weight: 600;
+    padding: 0 0 7px;
+}
+
+.delete_button {
+    position: relative;
+    left: 27px;
+    top: -23px;
+}
+
+.informacion {
+    width: 35%;
+    left: 60%;
+    top: 211px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+    gap: 40px;
+    opacity: 0px;
+}
+
+.titulo3 {
+    font-family: "Press Start 2P", system-ui;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.informacion__producto{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.informacion__input {
+    height: 35px;
+    border-radius: 12px;
+    border: 1px solid var(---color1);
+}
+
+::placeholder {
+    color: var(---color1);
+}
+
+.button-c {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.button-limpiar,
+.button-enviar {
+    width: 40%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(---color1);
+    color: var(---color2);
+    border: none;
+    border-radius: 15px;
+}
+
+.button-enviar:hover,
+.button-limpiar:hover {
+    cursor: pointer;
+    border: 1px solid var(---color1);
+    background: var(---color2);
+    color: var(---color1);
+    font-weight: 700;
+}
+
+.pie_de_pajina {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 23px;
+    /* width: 100%; */
+    top: 90%;
+    background: var(---color1);
+    gap: 12px;
+}
+
+
+.pie_de_pajina_titulo {
+    font-family: "Press Start 2P", system-ui;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.nombre {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    padding: 13px 0;
+}
+
+@media (max-width:768px) {
+    .contenido {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .container{
+        width: 80%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+   .container-productos{
+    gap: 22px;
+    display: flex;
+    flex-direction: column;
+    background: left;
+    width: 100%;
+    height: 373px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0 16px 0 16px;
+   }
+
+   .productos{
+    background: var(---color2);
+    border-radius: 14px;
+    border: 2px solid var(---color1);
+    width: 50%;
+    padding: 0 7px 0 7px;
+
+   }
+
+   .text-producto{
+    font-size: 20px;
+   }
+
+   .precio-producto{
+    font-size: 18px;
+    padding-top: 6px;
+   }
+
+   .delete_button{
+    width: 40px;
+    position: relative;
+    left: 115px;
+    top: -29px;
+    }
+
+    .informacion {
+        display: flex;
+    width: 65%;
+    position: static;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0 20px 0px;
+    }
+
+    .informacion__producto{
+        width: 136%;
+    }
+}
